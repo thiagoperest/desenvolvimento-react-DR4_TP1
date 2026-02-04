@@ -1,0 +1,73 @@
+.exercicio-container {
+  background-color: #0081f1;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-container label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0081f1;
+  margin-bottom: 10px;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-container textarea:focus {
+  outline: none;
+  border-color: #0081f1;
+}
+
+.contador-container {
+  margin-top: 15px;
+  padding: 15px;
+  background: #f0f8ff;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.contador-container strong {
+  color: #0081f1;
+  font-size: 1.3rem;
+  margin-left: 5px;
+}

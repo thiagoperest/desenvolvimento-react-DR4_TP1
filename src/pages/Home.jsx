@@ -8,6 +8,12 @@ export default function Home() {
       titulo: 'Implementação de Eventos e Comparação de Sintaxes',
       descricao: 'Comparar eventos com onclick HTML vs React',
       rota: '/exercicio-1'
+    },
+    {
+      id: 2,
+      titulo: 'Formulário Controlado e Mudança de Estado',
+      descricao: 'Textarea controlado com contador de caracteres',
+      rota: '/exercicio-2'
     }
   ]
 
