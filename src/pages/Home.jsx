@@ -14,6 +14,12 @@ export default function Home() {
       titulo: 'Formulário Controlado e Mudança de Estado',
       descricao: 'Textarea controlado com contador de caracteres',
       rota: '/exercicio-2'
+    },
+    {
+      id: 3,
+      titulo: 'Passagem de Argumentos em um Clique',
+      descricao: 'Botões que passam argumentos para função manipuladora',
+      rota: '/exercicio-3'
     }
   ]
 
