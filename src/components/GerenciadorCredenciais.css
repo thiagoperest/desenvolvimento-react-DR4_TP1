@@ -84,3 +84,37 @@
 .exibicao strong {
   color: #0081f1;
 }
+
+.lista-credenciais {
+  margin-top: 30px;
+}
+
+.lista-credenciais h3 {
+  font-size: 1.2rem;
+  color: #0081f1;
+  margin-bottom: 15px;
+}
+
+.lista-credenciais ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-credenciais li {
+  padding: 15px;
+  background: #f9f9f9;
+  border-left: 4px solid #0081f1;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.lista-credenciais li p {
+  margin: 8px 0;
+}
+
+.lista-credenciais li strong {
+  color: #0081f1;
+}

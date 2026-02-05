@@ -4,9 +4,18 @@ import './GerenciadorCredenciais.css'
 export default function GerenciadorCredenciais() {
   const [usuario, setUsuario] = useState('')
   const [senha, setSenha] = useState('')
+  const [credenciais, setCredenciais] = useState([])
 
   function handleSubmit(e) {
     e.preventDefault()
+    
+    const novaCredencial = {
+      id: crypto.randomUUID(),
+      usuario: usuario,
+      senha: senha
+    }
+    
+    setCredenciais([...credenciais, novaCredencial])
     setUsuario('')
     setSenha('')
   }
@@ -47,6 +56,19 @@ export default function GerenciadorCredenciais() {
         <h3>Valores Atuais:</h3>
         <p><strong>Usuário:</strong> {usuario || '(vazio)'}</p>
         <p><strong>Senha:</strong> {senha || '(vazio)'}</p>
+      </div>
+
+      <div className="lista-credenciais">
+        <h3>Credenciais Salvas:</h3>
+        <ul>
+          {credenciais.map((credencial) => (
+            <li key={credencial.id}>
+              <p><strong>ID:</strong> {credencial.id}</p>
+              <p><strong>Usuário:</strong> {credencial.usuario}</p>
+              <p><strong>Senha:</strong> {credencial.senha}</p>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   )
