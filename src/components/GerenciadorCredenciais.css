@@ -1,0 +1,169 @@
+.gerenciador-container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.gerenciador-container h2 {
+  font-size: 1.8rem;
+  color: #0081f1;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form {
+  margin-bottom: 30px;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+.campo label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.campo input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.campo input:focus {
+  outline: none;
+  border-color: #0081f1;
+}
+
+.btn-salvar {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #0081f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.btn-salvar:hover {
+  opacity: 0.85;
+}
+
+.exibicao {
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 6px;
+  border-left: 4px solid #0081f1;
+}
+
+.exibicao h3 {
+  font-size: 1.2rem;
+  color: #0081f1;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.exibicao p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.exibicao strong {
+  color: #0081f1;
+}
+
+.lista-credenciais {
+  margin-top: 30px;
+}
+
+.lista-credenciais h3 {
+  font-size: 1.2rem;
+  color: #0081f1;
+  margin-bottom: 15px;
+}
+
+.lista-credenciais ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-credenciais li {
+  height: 120px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-left: 4px solid #0081f1;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-credencial {
+  flex: 1;
+}
+
+.lista-credenciais li p {
+  margin: 8px 0;
+}
+
+.lista-credenciais li strong {
+  color: #0081f1;
+}
+
+.botoes-credenciais-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.btn-toggle-senha {
+  width: 90px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: #0081f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.btn-toggle-senha:hover {
+  opacity: 0.85;
+}
+
+.btn-excluir {
+  width: 90px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.btn-excluir:hover {
+  opacity: 0.85;
+}

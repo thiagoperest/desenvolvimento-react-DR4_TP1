@@ -1,0 +1,87 @@
+.exercicio-container {
+  background-color: #0081f1;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.botoes-container {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.botoes-container h2 {
+  font-size: 1.5rem;
+  color: #0081f1;
+  margin-bottom: 30px;
+}
+
+.botoes-grupo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-azul {
+  background: #0081f1;
+}
+
+.btn-verde {
+  background: #28a745;
+}
+
+.btn-vermelho {
+  background: #dc3545;
+}
+
+.instrucao {
+  padding: 20px;
+  background: #f0f8ff;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.instrucao p {
+  margin: 0;
+  color: #333;
+  font-size: 0.95rem;
+}
