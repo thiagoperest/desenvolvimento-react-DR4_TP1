@@ -20,6 +20,10 @@ export default function GerenciadorCredenciais() {
     setSenha('')
   }
 
+  function handleExcluir(id) {
+    setCredenciais(credenciais.filter((credencial) => credencial.id !== id))
+  }
+
   return (
     <div className="gerenciador-container">
       <h2>Cadastro de Credenciais</h2>
@@ -63,9 +67,17 @@ export default function GerenciadorCredenciais() {
         <ul>
           {credenciais.map((credencial) => (
             <li key={credencial.id}>
-              <p><strong>ID:</strong> {credencial.id}</p>
-              <p><strong>Usuário:</strong> {credencial.usuario}</p>
-              <p><strong>Senha:</strong> {credencial.senha}</p>
+              <div className="info-credencial">
+                <p><strong>ID:</strong> {credencial.id}</p>
+                <p><strong>Usuário:</strong> {credencial.usuario}</p>
+                <p><strong>Senha:</strong> {credencial.senha}</p>
+              </div>
+              <button 
+                className="btn-excluir"
+                onClick={() => handleExcluir(credencial.id)}
+              >
+                Excluir
+              </button>
             </li>
           ))}
         </ul>
