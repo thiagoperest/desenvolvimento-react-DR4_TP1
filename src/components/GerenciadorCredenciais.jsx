@@ -5,11 +5,17 @@ export default function GerenciadorCredenciais() {
   const [usuario, setUsuario] = useState('')
   const [senha, setSenha] = useState('')
 
+  function handleSubmit(e) {
+    e.preventDefault()
+    setUsuario('')
+    setSenha('')
+  }
+
   return (
     <div className="gerenciador-container">
       <h2>Cadastro de Credenciais</h2>
       
-      <form className="form">
+      <form className="form" onSubmit={handleSubmit}>
         <div className="campo">
           <label htmlFor="usuario">Usuário:</label>
           <input
@@ -31,6 +37,10 @@ export default function GerenciadorCredenciais() {
             placeholder="Digite a senha"
           />
         </div>
+
+        <button type="submit" className="btn-salvar">
+          Salvar Credencial
+        </button>
       </form>
 
       <div className="exibicao">

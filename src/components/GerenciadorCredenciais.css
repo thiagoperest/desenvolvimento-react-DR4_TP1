@@ -44,6 +44,23 @@
   border-color: #0081f1;
 }
 
+.btn-salvar {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #0081f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.btn-salvar:hover {
+  opacity: 0.85;
+}
+
 .exibicao {
   background: #f0f8ff;
   padding: 20px;
