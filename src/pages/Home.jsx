@@ -26,6 +26,12 @@ export default function Home() {
       titulo: 'Gerenciamento de Múltiplos Status com Condição',
       descricao: 'Input com toggle de visibilidade (password/text)',
       rota: '/exercicio-4'
+    },
+    {
+      id: 5,
+      titulo: 'Evento de Teclado e Captura Condicional',
+      descricao: 'Input com confirmação ao pressionar Enter',
+      rota: '/exercicio-5'
     }
   ]
 
