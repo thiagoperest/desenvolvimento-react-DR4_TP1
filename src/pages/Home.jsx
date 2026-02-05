@@ -20,6 +20,12 @@ export default function Home() {
       titulo: 'Passagem de Argumentos em um Clique',
       descricao: 'Botões que passam argumentos para função manipuladora',
       rota: '/exercicio-3'
+    },
+    {
+      id: 4,
+      titulo: 'Gerenciamento de Múltiplos Status com Condição',
+      descricao: 'Input com toggle de visibilidade (password/text)',
+      rota: '/exercicio-4'
     }
   ]
 
