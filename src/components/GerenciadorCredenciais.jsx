@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import ItemCredencial from './ItemCredencial'
 import './GerenciadorCredenciais.css'
 
 export default function GerenciadorCredenciais() {
@@ -66,19 +67,13 @@ export default function GerenciadorCredenciais() {
         <h3>Credenciais Salvas:</h3>
         <ul>
           {credenciais.map((credencial) => (
-            <li key={credencial.id}>
-              <div className="info-credencial">
-                <p><strong>ID:</strong> {credencial.id}</p>
-                <p><strong>Usuário:</strong> {credencial.usuario}</p>
-                <p><strong>Senha:</strong> {credencial.senha}</p>
-              </div>
-              <button 
-                className="btn-excluir"
-                onClick={() => handleExcluir(credencial.id)}
-              >
-                Excluir
-              </button>
-            </li>
+            <ItemCredencial
+              key={credencial.id}
+              id={credencial.id}
+              usuario={credencial.usuario}
+              senha={credencial.senha}
+              onExcluir={handleExcluir}
+            />
           ))}
         </ul>
       </div>
