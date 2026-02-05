@@ -38,6 +38,12 @@ export default function Home() {
       titulo: 'Rastreador de Mouse em React com Hooks',
       descricao: 'Rastreamento das coordenadas X e Y do mouse',
       rota: '/exercicio-6'
+    },
+    {
+      id: 7,
+      titulo: 'Mini Gerenciador de Credenciais',
+      descricao: 'Sistema para gerenciar credenciais de usuários',
+      rota: '/exercicio-7'
     }
   ]
 
