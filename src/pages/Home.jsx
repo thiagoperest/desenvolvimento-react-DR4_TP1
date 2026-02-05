@@ -32,6 +32,12 @@ export default function Home() {
       titulo: 'Evento de Teclado e Captura Condicional',
       descricao: 'Input com confirmação ao pressionar Enter',
       rota: '/exercicio-5'
+    },
+    {
+      id: 6,
+      titulo: 'Rastreador de Mouse em React com Hooks',
+      descricao: 'Rastreamento das coordenadas X e Y do mouse',
+      rota: '/exercicio-6'
     }
   ]
 
